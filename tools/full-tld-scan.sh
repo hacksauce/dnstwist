@@ -30,7 +30,7 @@ fi
 EFFECTIVE_TLD_NAMES="../database/effective_tld_names.dat"
 
 DNSTWIST_SCRIPT="../dnstwist.py"
-DNSTWIST_ARGS="--csv"
+DNSTWIST_ARGS="-fcsv"
 
 if [ ! -f "$EFFECTIVE_TLD_NAMES" ]
 then
